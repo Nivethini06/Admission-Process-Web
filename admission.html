@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="admission.css">
+</head>
+<body>
+<!--COMMON CODE-->
+<div id="navbar-placeholder"></div>
+
+    <!--ADMISSION -->
+    <section>
+        <div class="container">
+            <div class="ad-heading">
+                <h1>STEPS TO BE FOLLOWED</h1>
+                    <p>1.Create a student profile through login tab(Not necessary)</p>
+                    <p>2.Click the admission tab to proceed further steps</p>
+                    <p>3.Select your year</p>
+                    <p>4.Fill the admission form correctly</p>
+                    <p>5.Upload the necessary documents mentioned</p>
+                    <p>6.Choose payment option to pay your tuition fee</p>
+                    <p>7.Print your paid receipt</p>
+                
+            </div>
+                <div class="ad-neccessary">
+                    <h1>DOCUMENTS NEEDED</h1>
+                    <p>1.Allotment Order(Original)</p>
+                    <p>2.Transfer Certificate and Conduct Certificate(Original)</p>
+                    <p>3.10th Mark sheet(Original)</p>
+                    <p>4.12th MArk sheet(Original)</p>
+                    <p>5.Community Certificate(Original)</p>
+                    <p>6.First graduate Certificate(Original)</p>
+                    <p>7.Medical Fitness Certificate(Original)</p>
+                    <p>8.Aadhar Certificate(Original)</p>
+                    <p>9.Birth Certificate(Original)</p>
+                    <p>10.Nativity Certificate(for students who haven't studied in TamilNadu for last 5 years)</p>
+                    <p>11.Recent Income Certificate(Original)</p>
+                    <p>12.Phyically Disable Certificate(If Applicable)</p>
+                    <p>13.Bank Pass book Front Page</p>
+                    <p>14.Address Proof(Original)</p>
+                </div>
+            </div>
+            <a href="home.html"><button class="btn-1" >Back</button></a>
+       <a href="Registration form.html"> <button class="btn-2">Proceed</button></a>
+    </section>
+<!--NAVBAR-->
+<script>
+    fetch('navbar.html')
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById('navbar-placeholder').innerHTML = data;
+    });
+</script>
+    <script src="admission.js"></script>
+    <script src="main.js"></script>
+</body>

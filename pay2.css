@@ -1,0 +1,123 @@
+
+    h1{
+        font-family:  'Times New Roman', Times, serif; 
+    padding-top: 10px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(0, 55, 70);
+    animation-name: slideIn;
+      animation-duration: 2s;
+    }
+    @keyframes slideIn {
+        0% {
+          opacity: 0;
+          transform: translateY(-50px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      form {
+        width: 50%;
+        
+        margin: 150px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgb(133, 150, 155);
+        animation-name: slideIn;
+      animation-duration: 2s;
+      }
+      @keyframes slideIn {
+        0% {
+          opacity: 0;
+          transform: translateY(-50px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    
+#generate {
+color: rgb(0, 55, 70);
+       
+        cursor: pointer;
+        font-size: large;
+        margin-top: 30px;
+        padding-bottom: 10px;
+       
+
+
+}  
+#verify{
+    color: rgb(0, 55, 70);
+       
+    cursor: pointer;
+    font-size: large;
+}
+#back-3{
+    background-color: rgb(0, 55, 70);
+    color:rgb(255, 255, 255);
+    padding: 12px 30px 12px 30px;
+    width: 120px;
+    font-size:larger;
+    cursor: pointer;
+    outline: none;
+    border-radius: 10px;
+    margin-top: 30px;
+    border: none;
+} 
+#back-4{
+    background-color: rgb(0, 55, 70);
+    color:rgb(255, 255, 255);
+    padding: 12px 30px 12px 30px;
+    width: 120px;
+    font-size: larger;
+    cursor: pointer;
+    outline: none;
+    border-radius: 10px;
+    margin-top: 30px;
+    border: none;
+} 
+.abc{
+    display: inline;
+    
+}
+.one-1{
+    display: inline-block;
+    width: 80%;
+    margin-left: 0px;
+    
+}
+.confirm{
+    margin-left: 10px;
+    margin-top: 10px; 
+}
+
+.a
+{
+    width: 100%;padding: 10px;
+    margin-bottom: 10px;
+}
+label{
+    font-size: larger;
+    
+}
+#back-3{
+margin-right: 40px;
+
+}
+#captcha{
+margin-top:30px ;
+}
+#userInput{
+    width: 200px;
+    padding: 10px;
+}
+.error-message {
+  color: red;
+  font-size: 14px;
+}

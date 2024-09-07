@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADMISSION FORM</title>
+    
+    <link rel="stylesheet" href="Registration form.css">
+</head>
+<body>
+    <!--COMMON CODE-->
+<div id="navbar-placeholder"></div>
+
+<!--FORM HEADING-->
+<div class="cont">
+<div class="head ">
+    <h1>GOVERNMENT COLLEGE OF ENGINEERING, SALEM - 636011</h1>
+    <h1>FIRST YEAR B.E.(REGULAR) ADMISSION INDEX FORM</h1>
+</div>
+
+
+<div class="body1">
+<!--FORM CONTENT-->
+    <div class="form-css form-container">
+    <form action="" method="post">
+        <div class="form-sectionL">
+            <!--Application no-->
+        <label for="">Application No(As per Allotment order)</label><br><br>
+        <input type="number" name="appno" id="appno" placeholder="Your Application No"><br><br>
+        <span id="appno-error" class="error-message"></span><br>
+         <!--Admission no-->
+        <label for="admno">Admission No(As per Allotment order)</label><br><br>
+        <input type="text" name="admno" id="admno" placeholder="Your Admission No"><br><br>
+        <span id="admno-error" class="error-message"></span><br>
+        <!--name-->
+        <label for="name">Name of the Student(As per 10th Mark Sheet)</label><br><br>
+        <input type="text" name="name" id="name" placeholder="Your Name"><br><br>
+        <span id="name-error" class="error-message"></span><br>
+            <!--fname-->
+        <label for="fname">Name of the Father</label><br><br>
+        <input type="text" name="fname" id="fname"placeholder="Your Father's Name"><br><br>
+        <span id="fname-error" class="error-message"></span><br>
+            <!--occupation-->
+        <label for="occ">Occupation</label><br><br>
+        <input type="text" name="occ" id="occ" placeholder="Your Father's Occupation"><br><br>
+        <span id="occ-error" class="error-message"></span><br>
+            <!--annual income-->
+        <label for="ainc">Annual Income</label><br><br>
+        <input type="number" name="ainc" id="ainc" placeholder="Annual Income"><br><br>
+        <span id="ainc-error" class="error-message"></span><br>
+            <!--mname-->
+        <label for="mname">Name of the Mother</label><br><br>
+        <input type="text" name="mname" id="mname"  placeholder="Your Mother's Name"><br><br>
+        <span id="mname-error" class="error-message"></span><br>
+        <!--address-->
+        <label for="add">Address for Communication with(Pin code)</label><br><br>
+        <textarea id="add" name="add" rows="4" cols="50" placeholder="Your Address"></textarea><br><br>
+        <span id="pincode-error" class="error-message"></span><br>
+
+        <!--gender-->
+        <label for="gender">Select Gender:</label>
+<input type="radio" id="male" name="gender" value="male">
+<label for="male">Male</label>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label>
+<input type="radio" id="other" name="gender" value="other">
+<label for="other">Other</label><br>
+<span id="gender-error" class="error-message"></span><br><br>
+<!--dob-->
+        <label for="dob">Date of Birth(As per 10th Mark Sheet)</label><br><br>
+        <input type="date"  id="dob" name="dob"><br><br>
+        <span id="dob-error" class="error-message"></span><br>
+        <!--nat-->
+        <label for="nat">Nationality</label><br><br>
+        <input type="text" id="nat" name="nat" placeholder="Your Nationality"><br><br>
+        <span id="nat-error" class="error-message"></span><br>
+       <!-- Religion -->
+<label for="rel">Religion</label><br><br>
+<input type="text" id="rel" name="rel" placeholder="Your Religion"><br><br>
+<span id="rel-error" class="error-message"></span><br>
+
+      <!-- Community -->
+<label for="community">Community:</label><br><br>
+<select id="community" name="community">
+    <option value="">Select Community</option>
+    <option value="general">General</option>
+    <option value="obc">OC (Other Backward Class)</option>
+    <option value="bc">BC (Backward Class)</option>
+    <option value="bcm">BCM (Backward Class Muslim)</option>
+    <option value="mbc">MBC (Most Backward Class)</option>
+    <option value="sc">SC (Scheduled Caste)</option>
+    <option value="sca">SCA (Scheduled Caste Arunthathiyar)</option>
+    <option value="scc">SCC (Scheduled Caste Chakkiliyar)</option>
+    <option value="st">ST (Scheduled Tribe)</option>
+</select><br>
+<span id="community-error" class="error-message"></span><br>
+
+<!-- Name of the Caste -->
+<label for="com">Name of the Caste (As per Community Certificate)</label><br><br>
+<input type="text" id="com" name="com" placeholder="Your Community"><br><br>
+<span id="com-error" class="error-message"></span><br>
+
+<!-- Native District -->
+<label for="nd">Native District</label><br><br>
+<input type="text" id="nd" name="nd" placeholder="Your Native District"><br><br>
+<span id="nd-error" class="error-message"></span><br>
+
+   <!-- Community Certificate Particulars -->
+<label>Community Certificate Particulars:</label><br><br>
+
+<!-- Issuing Office -->
+<label for="io">i. Issuing Office</label><br><br>
+<input type="text" id="io" name="io" placeholder=" Issuing Office"><br><br>
+<span id="io-error" class="error-message"></span><br>
+
+<!-- Issuing Officer (Designation) -->
+<label for="ior">ii. Issuing Officer (Designation) [Follow this format]</label><br><br>
+<input type="text" id="ior" name="ior" placeholder=" Issuing Officer (Designation) "><br><br>
+<span id="ior-error" class="error-message"></span><br>
+
+<!-- Name of the Institution last Studied -->
+<label for="iname">Name of the Institution last Studied</label><br><br>
+<input type="text" id="iname" name="iname" placeholder="Institution Studied Previously"><br><br>
+<span id="iname-error" class="error-message"></span><br>
+
+<!-- Medium of Institution -->
+<label for="mi">Medium of Institution</label><br>
+<input type="text" id="mi" name="mi" placeholder="Medium of Institution"><br>
+<span id="mi-error" class="error-message"></span><br>
+<!-- Board of Examination -->
+<label for="be">Board of Examination</label><br>
+<input type="text" id="be" name="be" placeholder="Board of Examination"><br>
+<span id="be-error" class="error-message"></span><br>
+
+<!-- TC number -->
+<label for="tc">TC number</label><br>
+<input type="number" id="tc" name="tc" placeholder="Your TC number"><br>
+<span id="tc-error" class="error-message"></span><br>
+
+<!-- TC Date -->
+<label for="tcd">TC Date</label><br>
+<input type="date" id="tcd" name="tcd" placeholder="Your TC Issued Date"><br>
+<span id="tcd-error" class="error-message"></span><br>
+
+    </div>
+
+    <div class="form-sectionR">
+        <label for="">Marks obtained in the qualifying exam</label><br>
+        <table>
+            <thead>
+                <tr>
+                    <th>Subject</th>
+                    <th>Date</th>
+                    <th>Max Marks</th>
+                    <th>Marks Obtained</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input type="text" name="subject_math" value="Maths" readonly></td>
+                    <td><input type="month" name="date_math"></td>
+                    <td><input type="number" name="max_marks_math"></td>
+                    <td><input type="number" name="marks_obtained_math"></td>
+                    <td><span id="math-marks-error" class="error-message"></span></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="subject_phy" value="Physics" readonly></td>
+                    <td><input type="month" name="date_phy"></td>
+                    <td><input type="number" name="max_marks_phy"></td>
+                    <td><input type="number" name="marks_obtained_phy"></td>
+                    <td><span id="phy-marks-error" class="error-message"></span></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="subject_chem" value="Chemistry" readonly></td>
+                    <td><input type="month" name="date_chem"></td>
+                    <td><input type="number" name="max_marks_chem"></td>
+                    <td><input type="number" name="marks_obtained_chem"></td>
+                    <td><span id="chem-marks-error" class="error-message"></span></td>
+                </tr>
+            </tbody>
+        </table><br>
+        
+        <!--first-->
+        <label for="first_graduate_yes">First Graduate</label><br>
+        <input type="radio" id="first_graduate_yes" name="first_graduate" value="yes">
+        <label for="first_graduate_yes">Yes</label>
+        <input type="radio" id="first_graduate_no" name="first_graduate" value="no">
+        <label for="first_graduate_no">No</label><br>
+        <br>
+<!-- Special Quota -->
+<label>Special Quota</label><br>
+<input type="radio" id="physically_disabled" name="special_quota" value="physically_disabled">
+<label for="physically_disabled">Physically Disabled</label><br>
+
+<input type="radio" id="sports_quota" name="special_quota" value="sports_quota">
+<label for="sports_quota">Sports Quota</label><br>
+
+<input type="radio" id="goi_quota" name="special_quota" value="goi_quota">
+<label for="goi_quota">GOI (Government of India) Quota</label><br>
+
+<input type="radio" id="ex_serviceman_quota" name="special_quota" value="ex_serviceman_quota">
+<label for="ex_serviceman_quota">Ex-Serviceman Quota</label><br><br>
+
+<!-- Mobile Number -->
+<label for="mobile">Mobile Number</label><br>
+<input type="tel" id="mobile" name="mobile" placeholder="Your mobile number"><br>
+<span id="mobile-error" class="error-message"></span><br>
+
+    <!-- Aadhar Number -->
+<label for="aadhar">Aadhar Number</label><br>
+<input type="text" id="aadhar" name="aadhar" placeholder="Your Aadhar number"><br>
+<span id="aadhar-error" class="error-message"></span><br>
+
+<!-- Plus Two Cutoff -->
+<label for="plus_two_cutoff">+2 Cutoff</label><br>
+<input type="number" id="plus_two_cutoff" name="plus_two_cutoff" placeholder="Your +2 cutoff marks"><br>
+<span id="cutoff-error" class="error-message"></span><br>
+
+<!-- Overall Rank -->
+<label for="overall_rank">Overall Rank</label><br>
+<input type="number" id="overall_rank" name="overall_rank" placeholder="Your overall rank"><br>
+<span id="overall-rank-error" class="error-message"></span><br>
+
+<!-- Community Rank -->
+<label for="community_rank">Community Rank</label><br>
+<input type="number" id="community_rank" name="community_rank" placeholder="Your community rank"><br>
+<span id="community-rank-error" class="error-message"></span><br>
+
+  <!-- Allotment Category -->
+<label for="allotment_category">Allotment Category</label><br>
+<input type="radio" id="academic" name="allotment_category" value="academic">
+<label for="academic">Academic</label><br>
+
+<input type="radio" id="vocational" name="allotment_category" value="vocational">
+<label for="vocational">Vocational</label><br><br>
+
+
+<!-- Admission Date -->
+<label for="admission_date">Admission Date</label><br>
+<input type="date" id="admission_date" name="admission_date"><br>
+<span id="admission-date-error" class="error-message"></span><br>
+
+</div>
+<label for="confirmation">Confirm that all information provided is correct:</label><br>
+
+<input type="checkbox" id="confirmation" name="confirmation" required>
+<label for="confirmation">Yes, I confirm</label><br>
+
+<!-- Button to navigate and submit form -->
+<a href="admission.html"><button type="button" id="back">Back</button></a>
+<a href="upload.html"><button type="button" id="submitAndNavigateBtn" onclick="validateForm() ">Submit</button></a>
+</form>
+</div>
+
+</div>
+</div>
+
+
+
+
+<!--NAVBAR-->
+<script>
+    fetch('navbar.html')
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById('navbar-placeholder').innerHTML = data;
+        // After loading common elements, include login.js
+        includeLoginScript();
+    });
+
+    function includeLoginScript() {
+        const script = document.createElement('script');
+        script.src = 'login.js';
+        document.body.appendChild(script);
+    }
+</script>
+    <script src="Registration form.js"></script>
+    
+</body>
+</html>

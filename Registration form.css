@@ -1,0 +1,132 @@
+body {
+    
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.body1{
+    margin:0px;
+    margin-left: 250px;
+}
+.head {
+    text-align: center;
+    padding: 0px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: rgb(0, 55, 70);
+    animation-name: slideIn;
+    animation-duration: 2s;
+}
+@keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+.form-css label
+{
+    font-size: 20px;
+}
+
+.form-css input[type="text"],input[type="number"],input[type="date"],input[type="email"],input[type="month"],input[type="tel"],textarea,select
+{
+    width:100%; 
+    padding: 10px; 
+    box-sizing: border-box; 
+}
+
+input[type="radio"] 
+{
+    padding: 10px;
+}
+/* CSS for confirmation checkbox */
+#confirmation {
+    margin-top: 10px; /* Add top margin for spacing */
+}
+
+/* CSS for button */
+#submitAndNavigateBtn {
+    color: white;
+    background-color:rgb(0, 55, 70) ;
+    outline: none;
+    border-radius: 10px;
+    width: 130px;
+    font-size:larger;
+    cursor: pointer;
+    border: 0;
+    padding: 12px 30px 12px 30px;
+    margin-top: 50px;
+    margin-left: 50px;
+     /* Cursor style */
+    
+}
+
+#submitAndNavigateBtn:hover {
+    background-color: rgb(0, 55, 70); /* Button background color on hover */
+    text-align: center;
+}
+
+/* Form container */
+.form-container{
+    display: flex;
+    padding: 35px; 
+    flex-direction: row;
+  
+}
+
+/* Left section */
+.form-sectionL {
+    flex: 1;  
+    margin-right: 20px; 
+}
+
+/* Right section */
+.form-sectionR {
+    flex: 1; 
+    
+   
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+  }
+  #back{
+    color: white;
+    background-color:rgb(0, 55, 70) ;
+    outline: none;
+    border-radius: 10px;
+    width: 120px;
+    font-size:larger;
+    cursor: pointer;
+    border: 0;
+    padding: 12px 30px 12px 30px;
+    margin-top: 50px;
+    margin-left: 200px;
+  }
+  .cont{
+    width: 90%;
+        
+        margin: 150px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgb(133, 150, 155);
+        animation-name: slideIn;
+      animation-duration: 2s;
+  }
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+ 

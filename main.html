@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GCE SALEM ADMISSION</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<!--COMMON CODE-->
+<div id="navbar-placeholder"></div>
+
+
+
+
+
+
+    <!--NAVBAR-->
+<script>
+    fetch('navbar.html')
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById('navbar-placeholder').innerHTML = data;
+    });
+</script>
+
+
+</body>
+</html>

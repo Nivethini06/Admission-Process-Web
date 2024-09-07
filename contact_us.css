@@ -1,0 +1,119 @@
+#contactForm {
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(133, 150, 155);
+    margin-top:150px;
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(20px);
+    align-items: center;
+    margin-left: 535px;
+    margin-right: 535px;
+    border-radius: 24px;
+    padding: 40px;
+    animation-name: slideIn;
+  animation-duration: 2s;
+}
+@keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+/* Style for query results */
+#queryResult {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.queryEntry {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.queryEntry p {
+    margin: 5px 0;
+}
+
+.deleteBtn {
+    background-color: #ff6347; /* Red */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.deleteBtn:hover {
+    background-color: #cc0000; /* Darker red */
+}
+.head1
+{
+    text-align: center;
+    padding-top: 20px;
+   
+    color: rgb(0, 55, 70);
+    animation-name: slideIn;
+  animation-duration: 2s;
+  margin-top: 0;
+}
+@keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .head2
+{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(0, 55, 70);
+    animation-name: slideIn;
+  animation-duration: 2s;
+}
+@keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+#name,
+#email,
+#message {
+    width: 100%; /* Set the width to 100% of the container */
+    padding: 10px; /* Add padding for better visual appearance */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+   
+}
+
+#contactForm button[type="submit"] {
+    background-color: rgb(0, 55, 70); /* Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 120px;
+    font-size:larger;
+    cursor: pointer;
+    padding: 13px 30px 13px 30px;
+}
+

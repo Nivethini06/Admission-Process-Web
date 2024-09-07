@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+ <!--COMMON CODE-->
+<div id="navbar-placeholder"></div>
+
+    
+
+    <!--HOME-->
+    <div class="home">
+        <h1>GOVERNMENT COLLEGE OF ENGINEERING - SALEM</h1>
+        <p>An Autonomous Institution , Affiliated to Anna University,Chennai,Approved by AICTE,Accredited by NAAC.<p>
+            <img class="homelogo" src="images/clg .png">
+    </div>
+
+
+    <!--NAVBAR-->
+<script>
+    fetch('navbar.html')
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById('navbar-placeholder').innerHTML = data;
+    });
+</script>
+        
+    
+    <script src="home.js"></script>
+    <script src="main.js"></script>
+</body>

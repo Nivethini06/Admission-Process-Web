@@ -1,0 +1,75 @@
+.con{
+    width: 50%;
+    margin: 150px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(133, 150, 155);
+    animation-name: slideIn;
+  animation-duration: 2s;
+  text-align: center;
+  color: rgb(0, 55, 70);
+  }
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+.qrc{
+    width: 40%;
+}
+h1{
+    font-size:250%;
+    margin-top: 40px;
+    animation-name: slideIn;
+    animation-duration: 2s;
+}
+@keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+button{
+    color: white;
+    background-color:rgb(0, 55, 70) ;
+    outline: none;
+    border-radius: 10px;
+    width: 120px;
+    font-size:larger;
+    cursor: pointer;
+    border: 0;
+    padding: 12px 30px 12px 30px;
+    margin-top: 30px;
+    margin-right: 10px;
+
+    margin-bottom:30px ;
+}
+.document-upload {
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+.tick {
+  display: none;
+  vertical-align: middle;
+  margin-left: 10px;
+  color: rgb(64, 217, 64);
+}
+.document-upload label {
+  display: inline-block;
+  width: 280px;
+  margin-left: 70px;
+}
+document-upload input[type="file"] {
+  display: inline-block;
+  vertical-align: middle;
+}

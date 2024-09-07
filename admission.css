@@ -1,0 +1,75 @@
+
+.btn-2{
+    background-color: rgb(0, 55, 70);
+    color:rgb(255, 255, 255);
+    outline: none;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    padding: 13px 20px 13px 20px;
+    margin-left: 40px;
+    border: 0;
+    
+    width: 120px;
+    font-size:larger;
+    cursor: pointer;
+
+    
+    
+}
+.btn-1{
+    background-color: rgb(0, 55, 70);
+    color:rgb(255, 255, 255);
+    padding: 13px 30px 13px 30px;
+    outline: none;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    margin-left: 600px;
+    border: 0;
+    
+    width: 120px;
+    font-size:larger;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+    animation-name: slideIn;
+  animation-duration: 2s;
+  padding-bottom: 0px;
+    
+}
+@keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+.ad-heading{
+    margin-left: 150px;
+}
+h1{
+    font-size:xx-large;
+    color: rgb(0, 55, 70);
+    margin-top: 100px;
+}
+button{
+    animation-name: slideIn;
+    animation-duration: 2s;
+      
+}
+@keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

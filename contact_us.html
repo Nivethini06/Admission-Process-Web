@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT US</title>
+    
+    <link rel="stylesheet" href="contact_us.css">
+</head>
+<body>
+
+      <!--COMMON CODE-->
+<div id="navbar-placeholder"></div>
+<!--CODE FOR contact_us.html-->
+<!--CONTACT US-->
+
+<div>
+    
+    
+    <form id="contactForm">
+        <h1 class="head1" id="c">CONTACT US</h1>
+        <label for="name">NAME</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">EMAIL</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="message">MESSAGE</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"required></textarea><br><br>
+        
+        <button type="submit">Submit</button>
+    </form>
+    <h1 class="head2">QUERY REGISTERED</h1>
+    <div id="queryResult"></div>
+</div>
+
+<!--NAVBAR-->
+<script>
+    fetch('navbar.html')
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById('navbar-placeholder').innerHTML = data;
+        // After loading common elements, include login.js
+        includeLoginScript();
+    });
+
+    function includeLoginScript() {
+        const script = document.createElement('script');
+        script.src = 'login.js';
+        document.body.appendChild(script);
+    }
+    
+</script>
+
+<script src="contact_us.js"></script>
+
+</body>
+</html>

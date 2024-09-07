@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <!--COMMON CODE-->
+<div id="navbar-placeholder"></div>
+
+    <!--ABOUT US-->
+    <div class="about">
+<h1>WELCOME TO GCE-SALEM , ONLINE ADMISSION!</h1>
+</div>
+<div class="container">
+    <div class="con-2">
+        <img class="abt" src="images/admin.jpg">
+    </div>
+<div class="con-1">
+
+<p>At Government College of Engineering  - Salem , we are committed to providing a seamless and user-friendly online admission process for prospective students. Our mission is to make higher education accessible to all, ensuring that talented individuals from diverse backgrounds have the opportunity to pursue their academic goals.With the ever-evolving landscape of technology, we have embraced innovation to streamline our admissions procedures and enhance the overall experience for applicants.Our online admission portal is designed to be intuitive, efficient, and secure, allowing students to complete their applications conveniently from anywhere in the world.Our dedicated admissions team is here to assist you every step of the way, providing guidance, answering your questions, and ensuring that you have all the information you need to successfully navigate the admission process. Whether you're a first-time applicant or a transfer student, we are committed to supporting you throughout your journey to becoming a part of the Government College of Engineering  - Salem community.</p>
+<p>Should you have any inquiries or require assistance, please don't hesitate to reach out to us. You can contact our admissions office via email at gcesalem.edu@gmail.com or by phone at 0427 - 2346102. We're here to help make your transition to Government College of Engineering  - Salem as smooth and stress-free as possible.Thank you for considering Government College of Engineering  - Salem for your higher education journey. We look forward to welcoming you to our vibrant community of scholars, thinkers, and changemakers.</p>
+</div> 
+
+</div> 
+   <!--NAVBAR-->
+   <script>
+    fetch('navbar.html')
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById('navbar-placeholder').innerHTML = data;
+    });
+</script>
+<script src="main.js"></script>
+</body>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="pay2.css">
+</head>
+<body>
+    <div id="navbar-placeholder"></div>
+    <section>
+        <div class="container">
+            <form action="" method="post">
+                <div class="one-1">
+                    <h1>ENTER PAYMENT DETAILS</h1>
+                    <!--PAYMENT -->
+                    <label for="category" id="category">Payment Category</label>
+                    <select class="a">
+                        <option value="category">Select Category</option>
+                        <option value="Tuition fee">Tuition fee</option>
+                    </select><br>
+                    <span id="Tuition fee-error" class="error-message"></span><br>
+                    <!--NAME-->
+                    <label for="name-1">Name </label>
+                    <input type="text" name="name-1" id="name-1" class="a"><br>
+                    <span id="name-1-error" class="error-message"></span><br>
+                    <!--DOB-->
+                    <label for="dob">Date Of Birth</label>
+                    <input type="date" name="mbo" id="dob" class="a"><br>
+                    <span id="dob-error" class="error-message"></span><br>
+                    <!--MOBILE NO-->
+                    <label for="mbno">Mobile.no</label>
+                    <input type="tel" name="mbno" id="mbno" class="a"><br>
+                    <span id="mbno-error" class="error-message"></span><br>
+                    <!--EMAIL id-->
+                    <label for="emailid">Email-id</label>
+                    <input type="email" name="emailid" id="emailid" class="a"><br>
+                    <span id="emailid-error" class="error-message"></span><br>
+                    <!--DEPARTMENT-->
+                    <label for="dep">Department</label>
+                    <select class="a">
+                        <option value="dep">Select Department</option>
+                        <option value="cse">CSE</option>
+                        <option value="civil">CIVIL</option>
+                        <option value="mett">METTALURGY</option>
+                        <option value="ece">ECE</option>
+                        <option value="eee">EEE</option>
+                        <option value="mech">MECHANICAL</option>
+                        
+                    </select><br>
+                    
+                    <span id="dep-error" class="error-message"></span><br>
+                    <!--BATCH-->
+                    <label for="batch">Batch</label>
+                    <select class="a">
+                        <option value="batch">Select Batch</option>
+                        <option value="2021-2025">2021-2025</option>
+                        <option value="2022-2026">2022-2026</option>
+                        <option value="2023-2027">2023-2027</option>
+                        <option value="2024-2028">2024-2028</option>
+                        <option value="2025-2029">2025-2029</option>
+                    </select><br>
+                    <span id="batch-error" class="error-message"></span><br>
+        
+                </div>
+                
+            
+                
+                <!--CONFIRMATION-->
+                <div class="confirm">
+                    <label for="confirmation">Confirm that all information provided is correct</label><br>
+                <input type="checkbox" id="confirmation" name="confirmation" required>
+                <label for="confirmation">Yes, I confirm</label><br>
+                </div>
+                
+                <!--CAPTCHA
+                <div id="captcha"></div>
+
+                
+                <label id="generate" onclick="generateCaptcha()">Generate captcha</label> 
+                <input type="text" id="userInput" placeholder="Enter captcha"><br>
+                <label id="verify" onclick="verifyCaptcha()">Verify captcha</label>-->
+            
+                <!--BUTTON-->
+                <div class="abc">
+                <a href="upload.html"><button type="button" id="back-3" onclick="window.location.href='upload.html'">Back</button></a>
+                <button type="button" id="back-4" onclick="checkForm()">Pay</button>
+            </div>
+            </form>
+
+        </div>
+
+    </section>
+    <script src="main.js"></script>
+    <script src="pay2.js">
+        
+       
+    </script>
+   
+        
+        
+        
+    </body>   
+</body>

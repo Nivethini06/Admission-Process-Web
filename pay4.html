@@ -1,0 +1,47 @@
+<!--<!DOCTYPE html>
+<head>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="pay4.css">
+</head>
+<body>
+    <div id="navbar-placeholder"></div>
+    <div class="con1">
+        <div class="tic">
+            
+            <img src="images/check-circle-regular-96.png" class="tick">
+            <h1>Payment Successfull !!!</h1>
+        </div>
+        <a href="pay3.html"><button type="button" id="back-5">Back</button></a>
+        <a href="receipt.html"><button type="button" id="back-5">Receipt</button></a>
+        <h3 id="date">Payment on :</h3>
+        
+    </div>
+
+
+
+
+    <script>
+fetch('navbar.html')
+.then(response => response.text())
+.then(data => {
+    document.getElementById('navbar-placeholder').innerHTML = data;
+});
+const container = document.querySelector('.container');
+const dateElement = document.getElementById('date');
+
+function getCurrentDate() {
+  const now = new Date();
+  const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+  const formattedDate = now.toLocaleDateString('en-US', options);
+  dateElement.textContent = formattedDate;
+}
+
+// Call the function once to display immediately
+getCurrentDate();
+
+
+
+    </script>
+      
+   
+</body>-->

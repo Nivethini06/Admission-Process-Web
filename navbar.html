@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAVBAR</title>
+    <link rel="stylesheet" href="navbar.css">
+</head>
+<body>
+    <!--NAVBAR CODE-->
+<div class="navbar1">
+    <nav class="navbar">
+        <div class="nav-logo">
+            
+                <a href="#">GCE-SALEM</a>
+            
+        </div>
+        
+        <div class="nav-content">
+            <a href="home.html">HOME</a>
+            <a href="admission.html">ADMISSION</a>
+            <a href="about.html">ABOUT US</a>
+            <a href="contact_us.html">CONTACT US</a>
+        </div>
+        <div class="nav-button">
+            <a href="navbar.html" id="login">LOGIN</a>
+        </div>
+    </nav>
+</div>
+
+<!--LOGIN AND SIGN UP CODE-->
+<!--LOGIN-->
+<div class="container" id="loginContainer" style="display: none;">
+    <form id="signinForm" action="" method="post" class="login">
+        <span class="icon-close"><ion-icon name="close"><img class="cross" src="images/x-regular-24 (2).png"></ion-icon></span>
+        <h2 class="L">LOGIN</h2>
+        <label for="email">E-MAIL</label><br>
+        <input type="text" name="email" id="email" class="ab"><br>
+        <span id="emailError" class="error-message"></span><br>
+        <label for="password">PASSWORD</label><br>
+        <input type="password" name="password" id="password" class="ab"><br>
+        <span id="passwordError" class="error-message"></span><br>
+        <h4 class="S">DON'T HAVE AN ACCOUNT?<a href="#" id="showSignup">SIGNUP</a></h4><br>
+        <input type="submit" value="Login"class="b">
+        <input type="reset" value="Refresh" class="b">
+       
+    </form>
+</div>
+
+<!-- SIGNUP -->
+<div class="contai " id="signupContainer">
+    <form class="signup" id="signupForm" action="" method="post" style="display: none;">
+        <span class="icon-close"><ion-icon name="close"><img class="cross" src="images/x-regular-24 (2).png"></ion-icon></span>
+        <h2 class="L">SIGN UP</h2>
+        <label for="email">E-MAIL</label><br>
+        <input type="text" name="email" id="email1"class="ab" required><br>
+        <span id="emailError1" class="error-message"></span><br>
+        <label for="password">PASSWORD</label><br>
+        <input type="password" name="password" id="password1"class="ab" required><br>
+        <span id="passwordError1" class="error-message"></span><br>
+        <label for="cpassword">CONFIRM PASSWORD</label><br>
+        <input type="password" name="cpassword" id="cpassword1"class="ab" required><br>
+        <span id="cpasswordError1" class="error-message"></span><br>
+        <h4 class="S">ALREADY HAVE AN ACCOUNT?<a href="#" id="showLogin">LOGIN</a></h4><br>
+        <input type="submit" value="Register" class="bc">
+        <input type="reset" value="Refresh"class="bc">
+    </form>
+  
+</div>
+
+<script src="login.js"></script>
+</body>
+</html>

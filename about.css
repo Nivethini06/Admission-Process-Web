@@ -1,0 +1,52 @@
+.about{
+    text-align: center;
+    color: rgb(0, 55, 70);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+    padding-top:90px;
+    animation-name: slideIn;
+  animation-duration: 2s;
+  margin-top: 60px;
+
+
+}
+@keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+p{
+    
+    font-size: large;
+}
+.container{
+    display: flex;
+    animation-name: slideIn;
+  animation-duration: 2s;
+}
+@keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+.abt{
+    width: 400px;
+    padding-left: 50px;
+    padding-top: 60px;
+    
+}
+.con-1{
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-top: 40px;
+}
